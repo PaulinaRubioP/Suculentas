@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>EasyBay</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<header>
+    <nav><!--nav superior-->
+        <img src="images/assets/leaf.png" alt="leaf">
+        <h2>EasyBay</h2>
+        <input type="search" class="search" placeholder="Search for anything">
+        <input type="button" class="button"> Sing In</input>
+        <img src="images/assets/cart-dark.png" alt="cart-dark" class="cart" onclick="alerta()">
+    </nav>
+
+    <nav class="nav2"><!--nav inferior-->
+        <h4>Aeonium</h4>
+        <h4>Andormichus</h4>
+        <h4>Agave</h4>
+        <h4>Aloe</h4>
+        <h4>Anacampseros</h4>
+        <h4>Aristaloe</h4>
+        <h4>More...</h4>
+    </nav>
+
+    <div class="suculentas"><!--titulo-->
+        <h1 class="titulo">Your Source for Serious Succulent Specialties</h1>
+    </div>
+</header>
+<!---------------------------------------------------------------------------------------------------------->
+<main><!--inicio main-->
+    <div class="row1">
+        <div class="izquierda">
+                <span class="span1"><p class="texto1">Discover succ-ulent varieties one pot or rack at a time!  </p>
+                <p class="text1"> Discover<img class="flecha1" src="images/assets/arrow-light.png" alt="arrow-light"></p></span>
+                <img class="img1" onmouseover="cambiaSuculenta(this)" onmouseout="regresaSuculenta(this)" src="images/assets/succulents-1.jpg" alt="succulents-1">
+        </div>
+        <div class="derecha">
+            <img class="img2"src="images/assets/aloe-m.jpg" alt="aloe-m">
+            <span class="span2"><p class="texto2">Soothing Aloe <img class="flecha2" src="images/assets/arrow-light.png" alt="arrow-light"></p> </span>
+        </div>
+    </div>
+</main><!--cierre main-->
+<!---------------------------------------------------------------------------------------------------------->
+    <div class="inferior"><!--abre div inferior-->
+        <span>
+            <img src="images//assets/aeonium-s.jpg" alt="aeonium-s">
+            <p>Aeonium</p>
+        </span>
+        <span>
+            <img src="images//assets/aloe-s.jpg" alt="aloe-s">
+            <p>Aloe</p>
+        </span>
+        <span>
+            <img src="images//assets/cactus-s.jpg" alt="cactus-s">
+            <p>Cactus</p>
+        </span>
+        <span>
+            <img src="images//assets/echeveria-s.jpg" alt="echeveria-s">
+            <p>Echeveria</p>
+        </span>
+        <span>
+            <img src="images//assets/sedum-s.jpg" alt="aeonium-s">
+            <p>Sedum</p>
+        </span>
+        <span>
+            <img src="images//assets/sempervivum-s.jpg" alt="sempervivum-s">
+            <p>Sempervivum</p>
+        </span>
+    </div><!--cierre div inferior-->
+<footer>
+    <div class="cookie">
+        <img src="images/assets/alert-dark.png" alt="alert-dark">
+            <div>
+                <p>
+                This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in our <a href="#">cookie policy</a>
+                </p>
+            </div>
+        <button onclick="eliminar_cookies()">Acepto!</button>
+    </div>
+</footer>
+<script src="scritp.js"></script>
+</body>
+<!--Rosa Rubio Pacheco-->
+</html>
